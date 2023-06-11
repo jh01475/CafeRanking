@@ -5,7 +5,7 @@ import queryString from 'query-string';
 
 function SelectDayType() {
 
-////////////////////// 크롤링한 주소를 보여줌
+////////////////////// 크롤링한 주소를 보여줌 
     useEffect(() => {
         const queryObj = queryString.parse(window.location.search)
         console.log(queryObj)
