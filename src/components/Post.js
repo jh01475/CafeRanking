@@ -8,7 +8,7 @@ function Post(props) {
             <span className="post-rank">
                 {post_rank}위
             </span>
-            
+             
             <span>
                 {props.no}
             </span>
