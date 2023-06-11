@@ -34,7 +34,7 @@ function PageNotFound() {
   return (
     <div className='not-found'>
       <h1><div>Page Not Found</div></h1>
-      <h2>잘못된 주소입니다.</h2>
+      <h2>잘못된 주소입니다.</h2> 
     </div>
   )
 }
