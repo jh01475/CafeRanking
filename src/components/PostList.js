@@ -13,7 +13,7 @@ function PostList(props) {
                 score={data.score}
                 date={data.uploadDate} />))
     ) : (
-        <h4>선택한 기간의 데이터 없음!</h4>
+        <h4>선택한 기간의 데이터 없음!</h4> 
     )
 
     return (
