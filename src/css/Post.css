@@ -1,0 +1,32 @@
+.post {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(199, 199, 199);
+    margin-bottom: 10px;
+}
+
+.post>span{
+    text-align: center;
+}
+
+.post>span:nth-child(1){
+    float:left;
+    width:3%;
+    height: 100%;
+    background-color: rgb(199, 199, 199);
+}
+
+.post>span:nth-child(2){
+    float:left;
+    width: 7%;
+    height: 100%;
+    background-color: rgb(199, 199, 199);
+}
+
+.post>span:nth-child(3){
+    float:left;
+    text-align: left;
+    width: 83%;
+    height: 100%;
+    background-color: rgb(199, 199, 199);
+}

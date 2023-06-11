@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.daytype {
+    display: flex;
+    flex-direction: row;
+}
+
+.day {
+    width: 33.3%;
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.week {
+    width: 33.3%;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.month {
+    width: 33.3%;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
