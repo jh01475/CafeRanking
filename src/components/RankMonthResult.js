@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function RankMonthResult() {
 
-////////////////////// 서버로부터 크롤링 월간 데이터를 가져옴
+////////////////////// 서버로부터 크롤링 월간 데이터를 가져옴 
     const [boardList, setBoardList] = useState([])
 
     useEffect(()=> {
