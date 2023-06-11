@@ -9,7 +9,7 @@ function SearchTab() {
         searchURL = searchURL.replaceAll("boardtype=I",'boardtype=L');
         searchURL = searchURL.replaceAll("boardtype=C",'boardtype=L');
         
-        //입력받은 URL 유효성 검사
+        //입력받은 URL 유효성 검사 
         const urlPattern = /^(http|https):\/\/cafe\.naver\.com\/ArticleList\.nhn\?search\.clubid=\d+&search\.menuid=\d+&search\.boardtype=[A-Z]$/;
         if (!urlPattern.test(searchURL)) {
             alert('올바른 url 주소를 입력하세요!');
