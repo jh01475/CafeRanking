@@ -58,7 +58,7 @@ app.get('/search', (req, res) => {
             for (var i = 1; i < at; i++) {
                 
                 if ($("#main-area > div:nth-child(2)").attr('class') == 'sub_info_box') {
-                    //console.log($("#main-area > div:nth-child(2)").attr('class'));
+                    //console.log($("#main-area > div:nth-child(2)").attr('class')); 
                     area = 5;
                 }
 
